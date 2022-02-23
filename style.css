@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Yeseva+One&display=swap');
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+    background-color: white;
+}
+.container{
+    width:1128px;
+    margin:0 auto;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+/* similar style start*/
+.half-width{
+    width:50%;
+}
+p{
+    font-family: 'Poppins', sans-serif;
+
+}
+.btn-style{
+    background-color: #FF5959;
+    border-radius: 5px;
+    padding:10px 20px;
+    text-decoration: none;
+    color:white;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom:300px;
+}
+
+.span-txt{
+    color: #e9a94a;
+
+}
+/* smilar sryle end
+================== */
+
+/* Header style
+===============================
+*/
+
+.half-width img {
+    width: 70%;
+    margin-left: 170px;
+}
+.half-width p {
+    color: rgb(62, 62, 62);
+    font-weight: 400;
+    font-size: 18px;
+    width: 450px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+ .half-width h1{
+    padding-left: 15px;
+    font-size: 60px;
+    border-left:4px solid crimson;
+    margin-bottom:20px;
+}
+/* Header style ENd
+===============================
+*/
+
+
+
+/* Mission section Start */
+.mission{
+    margin-top:30px;
+}
+
+.mission h1{
+    text-align:center;
+    font-size:48px;
+    font-weight:bold;
+    font-family:'Poppins', sans-serif;
+    margin-bottom:40px;
+   
+}
+
+.card{
+    width:330px;
+    height: 376px;
+    margin:15px;
+    padding:10px;
+    border-radius:26px;
+}
+.card1{
+    background-color: rgb(215, 253, 253);
+}
+.card2{
+    background-color: rgb(253, 230, 199);
+
+}
+.card3{
+    background-color: rgb(222, 247, 206);
+
+}
+.card img{
+    width:50%
+}
+
+.card h2{
+    margin:15px 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    
+}
+
+.card p{
+    font-size:15px;
+    font-weight:200;
+    color:rgb(65, 64, 64);
+}
+/* Mission section end */
+
+
+
+/* Develop section start
+====================== */
+
+.develop{
+    margin:130px 0;
+}
+.develop .document{
+    margin-left:130px;
+}
+.develop .half-width img{
+    height: 400px;
+    width: 400px;
+    margin-left: 150px;
+
+}
+.develop .half-width h2{
+    font-size:36px;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Develop section end
+====================== */
+
+/* 
+Global section start
+=====================*/
+.global .half-width{
+    margin-left:100px;
+}
+.global .half-width img{
+    margin-left:25px;
+}
+.global .half-width h2{
+    font-size:36px;
+    font-family: 'Poppins', sans-serif;
+}
+/* Global section end
+=================== */
+/* Flower section start */
+.counter{
+    margin-top: 100px;
+    border-radius: 20px;
+    height:150px;
+    box-shadow:0 0 100px rgb(207, 205, 205);    
+}
+
+.counter .count{
+    margin:0 140px;
+    text-align:center;
+}
+.counter .count h1{
+    font-family: 'Poppins', sans-serif;
+    color:rgb(66, 129, 247)
+    
+}
+.counter .count p{
+   color:rgb(54, 80, 80)
+}
+/* Flower section end*/
+
+/* footer start */
+footer{
+    background-color: black;
+    margin-top:100px;
+    height:177px;
+    color:white;
+    text-align:center;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+}
+
+footer div h2{
+    font-size:40px;
+}
+/* footer end */
